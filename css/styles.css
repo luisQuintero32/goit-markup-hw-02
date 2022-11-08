@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2? family= Raleway:wght@700 & family= Roboto:wght@400;500;700;900 & display=swap');
+
+
+body{
+    font-family: 'roboto' 'sans-serif';
+    background: #FFFFFF;
+}
+
+.buttons .button{
+    background: #F5F4FA;
+    border-radius: 4px;
+    color: #212121;
+}
+
+.buttons .button:hover {
+    color: #FFFFFF;
+background: #2196F3;
+
+}
+
+.header a{
+    color: #757575;
+}
+
+
+
