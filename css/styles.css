@@ -15,7 +15,7 @@ body{
 .buttons .button:hover {
     color: #FFFFFF;
     background: #2196F3;
-
+    cursor: pointer;
 }
 
 .button{
@@ -25,7 +25,6 @@ body{
     align-items: center;
     padding: 10px 32px;
 
-    position: absolute;
     width: 261px;
     height: 50px;
     left: 666px;
@@ -39,13 +38,13 @@ ul{
 }
 
 .link-webstudio{
-    position: absolute;
+    
     width: 145px;
     height: 31px;
     left: 215px;
     top: 24px;
 
-    font-family: 'Raleway';
+    
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -57,31 +56,7 @@ ul{
     color: #2196F3;
 }
 
-.link-estudio{
-    position: absolute;
-    width: 49px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-
-    color: #2196F3;
-}
-
-.link-portafolio{
-    position: absolute;
-    width: 65px;
-    height: 16px;
-    left: 552px;
-    top: 32px;
-
-    font-family: 'Roboto';
+.link-header{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -91,48 +66,11 @@ ul{
     color: #212121;
 }
 
-.link-contactos{
-    position: absolute;
-    width: 67px;
-    height: 16px;
-    left: 667px;
-    top: 32px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-
-    color: #212121;
-}
-
-.header-email{
-    position: absolute;
-    width: 135px;
-    height: 16px;
-    left: 1078px;
-    top: 32px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-
+.link-header:hover {
     color: #2196F3;
 }
 
-.header-tel{
-    position: absolute;
-    width: 118px;
-    height: 16px;
-    left: 1263px;
-    top: 32px;
-
-    font-family: 'Roboto';
+.header-email-tel a{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -142,15 +80,17 @@ ul{
     color: #757575;
 }
 
+.header-email-tel a:hover{
+    color: #2196F3;
+}
+
                         /*   titulo  section 1 */
 .titulo-principal{
-    position: absolute; 
     width: 696px;
     height: 120px;
     left: 448px;
     top: 280px;
-
-    font-family: 'Roboto';
+    
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -164,7 +104,6 @@ ul{
 }
 
 .title-fondo{
-    position: absolute;
     width: 1600px;
     height: 600px;
     left: -4px;
@@ -175,13 +114,11 @@ ul{
                             /* section 2*/
 
 .title-1p{
-    position: absolute;
     width: 270px;
     height: 16px;
     left: 215px;
     top: 775px;
 
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -193,13 +130,11 @@ ul{
 }                            
 
 .parrafo-1{
-    position: absolute;
 width: 270px;
 height: 75px;
 left: 215px;
 top: 801px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -211,13 +146,11 @@ color: #757575;
 }
 
 .title-2p{
-    position: absolute;
 width: 270px;
 height: 16px;
 left: 515px;
 top: 775px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
@@ -227,13 +160,11 @@ text-transform: uppercase;
 }
 
 .parrafo-2{
-    position: absolute;
 width: 270px;
 height: 96px;
 left: 515px;
 top: 801px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -243,13 +174,11 @@ letter-spacing: 0.03em;
 }
 
 .title-3p{
-    position: absolute;
 width: 270px;
 height: 16px;
 left: 815px;
 top: 775px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
@@ -261,13 +190,11 @@ color: #212121;
 }
 
 .parrafo-3{
-    position: absolute;
 width: 270px;
 height: 75px;
 left: 815px;
 top: 801px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -278,13 +205,11 @@ color: #757575;
 }
 
 .title-4p{
-    position: absolute;
 width: 270px;
 height: 16px;
 left: 1115px;
 top: 775px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
@@ -296,13 +221,11 @@ color: #212121;
 }
 
 .parrafo-4{
-    position: absolute;
 width: 270px;
 height: 75px;
 left: 1115px;
 top: 801px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -313,13 +236,11 @@ color: #757575;
 }
                                      /* section 3*/
 .title-principal-2{
-    position: absolute;
 width: 371.15px;
 height: 46.24px;
 left: 619.43px;
 top: 991px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -331,32 +252,137 @@ color: #212121;
 }
 
 .img-title-2-1{
-    position: absolute;
 width: 373.16px;
 height: 323.7px;
 left: 215px;
 top: 1092.3px;
-
-background: url(.jpg);
-mix-blend-mode: normal;
 }
 
 .img-title-2-2{
-    position: absolute;
 width: 373.16px;
 height: 323.7px;
 left: 618.42px;
 top: 1092.3px;
-
-background: url(.jpg);
 }
 
 .img-title-2-3{
-    position: absolute;
 width: 373.16px;
 height: 323.7px;
 left: 1015px;
 top: 1092px;
+}
 
-background: url(.jpg);
+.title-n-equipo{
+width: 263px;
+height: 42px;
+left: 669px;
+top: 1604px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.section-foto-title h3{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.section-foto-title p{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+letter-spacing: 0.03em;
+
+color: #757575;
+
+}
+                        /*    pie de pagina    */
+footer {
+    background: #2F303A;
+}
+
+.piepag-direcion{
+width: 231px;
+height: 21px;
+left: 215px;
+top: 2258px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+}
+
+.pie-pag-email-tel a:hover{
+    color: #2196F3;
+}
+
+.pie-pag-email-tel .header-email{
+    width: 231px;
+height: 21px;
+left: 215px;
+top: 2306px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+.pie-pag-email-tel .header-tel{
+    width: 231px;
+height: 21px;
+left: 215px;
+top: 2306px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+                        /*portafolio*/
+.title-img-portafolio h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    
+    letter-spacing: 0.06em;
+    
+    color: #212121;
+}
+
+.parrafo-img{
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+
 }
